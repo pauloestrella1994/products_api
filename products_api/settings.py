@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'products_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'topskills6',
-        'USER': 'topskills6',
-        'PASSWORD': 'ote2020',
-        'HOST': 'pgsql03-farm70.uni5.net',
+        'NAME': 'products_api',
+        'USER': 'ote',
+        'PASSWORD': 'secret',
+        'HOST': 'postgres',
         'PORT': ''       #default
     }
 }
